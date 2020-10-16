@@ -1,6 +1,5 @@
 # CycleGAN
- 
-This notebook is a demonstration of implementing CycleGAN
+This is a demonstration of implementing CycleGAN
 
 Most of the implementations follow the instruction in [this paper](https://arxiv.org/abs/1703.10593) by Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros
 
