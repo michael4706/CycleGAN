@@ -20,4 +20,4 @@ To train a CycleGAN, the labels are not required. The goal is to train a generat
 * run.py: Run this file to train your own CycleGAN. You have to specify your own dataset's directory
 
 ### Special Thanks to Udacity deep learning Nanodegree Program
-The code in this Repo is built upon the skeleton provided by the udacity community. Most of the parts are written with my own effort, except that the udacity offer heavy skeleton in the actual training part. I am able to understand the implementation of CycleGAN after having implemented by myself
+The code in this Repo is built upon the skeleton provided by the udacity community. Most of the parts are written with my own effort, except that the udacity offer heavy skeleton in the actual training part and the helper functions. I am able to understand the implementation of CycleGAN after having implemented by myself
