@@ -13,13 +13,14 @@ The dataset is the image dataset of Yosemite national park. The seasons, summer 
 To train a CycleGAN, the labels are not required. The goal is to train a generator that learns the mapping between domain X and domain Y
 
 ### CycleGAN oerview
+<img src='images/training_cycle_ex.png' width=80% />
+<img src='images/CycleGAN_loss.png' width=80% />
 
-<img src='images/training_cycle_ex.png' width=60% />
+## Generator Structure
+<img src='images/cyclegan_generator_ex.png' width=80% />
 
-<img src='images/training_cycle_ex.png' width=60% />
-
-<img src='images/CycleGAN_loss.png' width=60% />
-
+## Discriminator Structure
+<img src='images/discriminator_layers.png' width=80% />
 
 ### File Introduction
 * model.py: The model structure
