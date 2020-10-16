@@ -2,7 +2,7 @@
  
 This notebook is a demonstration of implementing CycleGAN
 
-Most of the implementations follow the instruction in [this paper](https://arxiv.org/abs/1703.10593)
+Most of the implementations follow the instruction in [this paper](https://arxiv.org/abs/1703.10593) by Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros
 
 The provided codes work on any dataset, so feel free to use your own dataset to train a CycleGAN
 
@@ -11,6 +11,15 @@ The dataset is the image dataset of Yosemite national park. The seasons, summer 
 
 ### Background 
 To train a CycleGAN, the labels are not required. The goal is to train a generator that learns the mapping between domain X and domain Y
+
+### CycleGAN oerview
+
+<img src='images/training_cycle_ex.png' width=60% />
+
+<img src='images/training_cycle_ex.png' width=60% />
+
+<img src='images/CycleGAN_loss.png' width=60% />
+
 
 ### File Introduction
 * model.py: The model structure
